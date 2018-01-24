@@ -12,7 +12,7 @@ rule Default {
 
 rule SystemACL {
   description: "System ACL to permit all access"
-  participant: ANY
+  participant: "ANY"
   operation: ALL
   resource: "org.hyperledger.composer.system.**"
   action: ALLOW
